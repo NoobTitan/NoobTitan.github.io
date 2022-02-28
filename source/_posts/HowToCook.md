@@ -8,5 +8,5 @@ tags:
 
 [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
 
-本人先将复现家常菜系列
+抽空复现家常菜系列
 
