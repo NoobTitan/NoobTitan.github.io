@@ -7,5 +7,3 @@ tags:
 # 关于HowToCook
 
 [程序员做饭指南](https://github.com/Anduin2017/HowToCook)
-
-
