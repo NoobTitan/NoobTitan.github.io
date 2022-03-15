@@ -16,20 +16,22 @@
   <meta name="author" content="Fengji Dai">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="Hexo + Typora 图片路径同步1. 修改_config.yml1post_asset_folder: true  2. 修改Typora配置  如图配置Typora图片路径 3. 安装插件1npm install hexo-asset-image --save  安装该插件是为了自动转换图片路径为博客支持格式 打开&#x2F;node_modules&#x2F;hexo-asset-image&#x2F;index.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2022/02/22/hello-world/index.html">
+<meta property="og:title" content="Hexo + Typora 图片路径同步">
+<meta property="og:url" content="http://example.com/2022/03/15/HexoTyporaImgSync/index.html">
 <meta property="og:site_name" content="Fengji Dai">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Hexo + Typora 图片路径同步1. 修改_config.yml1post_asset_folder: true  2. 修改Typora配置  如图配置Typora图片路径 3. 安装插件1npm install hexo-asset-image --save  安装该插件是为了自动转换图片路径为博客支持格式 打开&#x2F;node_modules&#x2F;hexo-asset-image&#x2F;index.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-02-22T01:51:12.854Z">
-<meta property="article:modified_time" content="2022-02-22T01:51:12.854Z">
+<meta property="og:image" content="http://example.com/2022/03/15/HexoTyporaImgSync/image-20220315105435487.png">
+<meta property="article:published_time" content="2022-03-15T02:48:11.000Z">
+<meta property="article:modified_time" content="2022-03-15T03:05:28.773Z">
 <meta property="article:author" content="Fengji Dai">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/2022/03/15/HexoTyporaImgSync/image-20220315105435487.png">
   
   
-  <title>Hello World - Fengji Dai</title>
+  <title>Hexo + Typora 图片路径同步 - Fengji Dai</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -175,9 +177,9 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Hello World">
+            <span class="h2" id="subtitle" title="Hexo + Typora 图片路径同步">
               
-                Hello World
+                Hexo + Typora 图片路径同步
               
             </span>
 
@@ -187,8 +189,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-02-22 09:51" pubdate>
-        February 22, 2022 am
+      <time datetime="2022-03-15 10:48" pubdate>
+        March 15, 2022 am
       </time>
     </span>
   
@@ -198,7 +200,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      367 字
+      1.4k 字
     </span>
   
 
@@ -207,7 +209,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4 分钟
+      12 分钟
     </span>
   
 
@@ -236,22 +238,22 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello World</h1>
+            <h1 style="display: none">Hexo + Typora 图片路径同步</h1>
             
             <div class="markdown-body">
-              <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+              <h1 id="Hexo-Typora-图片路径同步"><a href="#Hexo-Typora-图片路径同步" class="headerlink" title="Hexo + Typora 图片路径同步"></a>Hexo + Typora 图片路径同步</h1><h2 id="1-修改-config-yml"><a href="#1-修改-config-yml" class="headerlink" title="1. 修改_config.yml"></a>1. 修改_config.yml</h2><figure class="highlight yaml"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">post_asset_folder:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
+<h2 id="2-修改Typora配置"><a href="#2-修改Typora配置" class="headerlink" title="2. 修改Typora配置"></a>2. 修改Typora配置</h2><img src="/2022/03/15/HexoTyporaImgSync/image-20220315105435487.png" srcset="/img/loading.gif" lazyload class="" title="image-20220315105435487">
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
+<p>如图配置Typora图片路径</p>
+<h2 id="3-安装插件"><a href="#3-安装插件" class="headerlink" title="3. 安装插件"></a>3. 安装插件</h2><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs maxima">npm install hexo-asset-<span class="hljs-built_in">image</span> --<span class="hljs-built_in">save</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<p>安装该插件是为了自动转换图片路径为博客支持格式</p>
+<p>打开<code>/node_modules/hexo-asset-image/index.js</code>, 使用以下代码替换</p>
+<figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><code class="hljs arcade">const <span class="hljs-built_in">log</span> = require(<span class="hljs-string">&#x27;hexo-log&#x27;</span>)(&#123; <span class="hljs-string">&#x27;debug&#x27;</span>: <span class="hljs-literal">false</span>, <span class="hljs-string">&#x27;slient&#x27;</span>: <span class="hljs-literal">false</span> &#125;);<br><br><span class="hljs-comment">/**</span><br><span class="hljs-comment"> * md文件返回 true</span><br><span class="hljs-comment"> * @param &#123;*&#125; data </span><br><span class="hljs-comment"> */</span><br><span class="hljs-keyword">function</span> <span class="hljs-title function_">ignore</span>(<span class="hljs-params">data</span>) &#123;<br>    <span class="hljs-keyword">var</span> source = data.source;<br>    <span class="hljs-keyword">var</span> ext = source.substring(source.lastIndexOf(<span class="hljs-string">&#x27;.&#x27;</span>)).toLowerCase();<br>    <span class="hljs-keyword">return</span> [<span class="hljs-string">&#x27;md&#x27;</span>,].<span class="hljs-built_in">indexOf</span>(ext) &gt; <span class="hljs-number">-1</span>;<br>&#125;<br><br><span class="hljs-keyword">function</span> <span class="hljs-title function_">action</span>(<span class="hljs-params">data</span>) &#123;<br>    <span class="hljs-keyword">var</span> reverseSource = data.source.<span class="hljs-built_in">split</span>(<span class="hljs-string">&quot;&quot;</span>).<span class="hljs-built_in">reverse</span>().join(<span class="hljs-string">&quot;&quot;</span>);<br>    <span class="hljs-keyword">var</span> fileName = reverseSource.substring(<span class="hljs-number">3</span>, reverseSource.<span class="hljs-built_in">indexOf</span>(<span class="hljs-string">&quot;/&quot;</span>)).<span class="hljs-built_in">split</span>(<span class="hljs-string">&quot;&quot;</span>).<span class="hljs-built_in">reverse</span>().join(<span class="hljs-string">&quot;&quot;</span>);<br><br>    <span class="hljs-comment">// ![example](postname/example.jpg)  --&gt;  &#123;% asset_img example.jpg example %&#125;</span><br>    <span class="hljs-keyword">var</span> regExp = RegExp(<span class="hljs-string">&quot;!\\[(.*?)\\]\\(&quot;</span> + fileName + <span class="hljs-string">&#x27;/(.+?)\\)&#x27;</span>, <span class="hljs-string">&quot;g&quot;</span>);<br>    <span class="hljs-comment">// hexo g</span><br>    data.content = data.content.<span class="hljs-built_in">replace</span>(regExp, <span class="hljs-string">&quot;&#123;% asset_img $2 $1 %&#125;&quot;</span>,<span class="hljs-string">&quot;g&quot;</span>);<br><br>    <span class="hljs-comment">// log.info(`hexo-asset-img: filename: $&#123;fileName&#125;, title: $&#123;data.title.trim()&#125;`);</span><br>    <br>    <span class="hljs-keyword">return</span> data;<br>&#125;<br><br>hexo.extend.<span class="hljs-built_in">filter</span>.register(<span class="hljs-string">&#x27;before_post_render&#x27;</span>,(data)=&gt;&#123;<br>    <span class="hljs-keyword">if</span>(!ignore(data))&#123;<br>        action(data)<br>    &#125;<br>&#125;, <span class="hljs-number">0</span>);<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="4-插入图片"><a href="#4-插入图片" class="headerlink" title="4. 插入图片"></a>4. 插入图片</h2><p>复制任意图片，在Typora中粘贴，Typora自动生成相对路径图片，hexo部署之后也可以正常显示图片</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://moeci.com/posts/hexo-typora/">Hexo + Typora + 开发Hexo插件 解决图片路径不一致</a></p>
 
             </div>
             <hr>
@@ -272,18 +274,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/02/22/HowToCook/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">HowToCook</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/02/17/Test-Post/">
-                        <span class="hidden-mobile">Test Post</span>
+                      <a href="/2022/02/23/UbuntuBackup/">
+                        <span class="hidden-mobile">Ubuntu系统备份与还原</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
